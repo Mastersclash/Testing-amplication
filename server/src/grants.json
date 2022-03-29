@@ -1,0 +1,764 @@
+[
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "User",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "User",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Tournament",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Tournament",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Tournament",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Tournament",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Tournament",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Tournament",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Tournament",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Tournament",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Tournament",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Tournament",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Session",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Session",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Session",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Session",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Session",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Game",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Game",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Game",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Game",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Game",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Game",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Game",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Game",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Game",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Game",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Match",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Match",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Match",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Match",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Match",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Match",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Match",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Match",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Match",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Match",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MatchStatus",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MatchStatus",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MatchStatus",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MatchStatus",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MatchStatus",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MatchStatus",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MatchStatus",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MatchStatus",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MatchStatus",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MatchStatus",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraft",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraft",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraft",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraft",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraft",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraft",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraft",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraft",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraft",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraft",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraftStatus",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraftStatus",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraftStatus",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraftStatus",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraftStatus",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraftStatus",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraftStatus",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraftStatus",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "MapDraftStatus",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "MapDraftStatus",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Streamer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Streamer",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Streamer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Streamer",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Streamer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Streamer",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Streamer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Streamer",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Streamer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Streamer",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Team",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Team",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Team",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Team",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Team",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Team",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Team",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Team",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Team",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Team",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Player",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Player",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Player",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Player",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Player",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Player",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Player",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Player",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Player",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Player",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Map",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Map",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Map",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Map",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Map",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Map",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Map",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Map",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Map",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Map",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Asset",
+    "action": "read:own",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Asset",
+    "action": "create:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Asset",
+    "action": "update:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Asset",
+    "action": "delete:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Admin",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  },
+  {
+    "role": "Moderator",
+    "resource": "Asset",
+    "action": "read:any",
+    "attributes": "*"
+  }
+]

@@ -1,0 +1,111 @@
+datasource postgres {
+  provider = "postgresql"
+  url      = env("POSTGRESQL_URL")
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model User {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  password  String
+  roles     String[]
+  updatedAt DateTime @updatedAt
+  username  String   @unique
+}
+
+model Tournament {
+  assets    Asset[]
+  createdAt DateTime   @default(now())
+  id        String     @id @default(cuid())
+  maps      Map[]
+  name      String
+  sessions  Session[]
+  streamers Streamer[]
+  teams     Team[]
+  updatedAt DateTime   @updatedAt
+}
+
+model Session {
+  createdAt   DateTime     @default(now())
+  id          String       @id @default(cuid())
+  name        String
+  tournaments Tournament[]
+  updatedAt   DateTime     @updatedAt
+}
+
+model Game {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model Match {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model MatchStatus {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model MapDraft {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model MapDraftStatus {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  updatedAt DateTime @updatedAt
+}
+
+model Streamer {
+  createdAt    DateTime    @default(now())
+  id           String      @id @default(cuid())
+  tournament   Tournament? @relation(fields: [tournamentId], references: [id])
+  tournamentId String?
+  updatedAt    DateTime    @updatedAt
+}
+
+model Team {
+  createdAt  DateTime     @default(now())
+  id         String       @id @default(cuid())
+  logo       String?
+  name       String
+  players    Player[]
+  tournament Tournament[]
+  updatedAt  DateTime     @updatedAt
+}
+
+model Player {
+  createdAt DateTime @default(now())
+  id        String   @id @default(cuid())
+  team      Team?    @relation(fields: [teamId], references: [id])
+  teamId    String?
+  updatedAt DateTime @updatedAt
+}
+
+model Map {
+  activated  String
+  createdAt  DateTime     @default(now())
+  id         String       @id @default(cuid())
+  image      String?
+  name       String
+  tournament Tournament[]
+  updatedAt  DateTime     @updatedAt
+}
+
+model Asset {
+  createdAt    DateTime    @default(now())
+  id           String      @id @default(cuid())
+  tournament   Tournament? @relation(fields: [tournamentId], references: [id])
+  tournamentId String?
+  updatedAt    DateTime    @updatedAt
+}
