@@ -1,0 +1,19 @@
+{
+  "dataServiceGeneratorVersion": "0.12.2",
+  "appInfo": {
+    "name": "Mastersclash API",
+    "description": "",
+    "version": "0hp8juby",
+    "id": "cl1b0plqr164174601s6few5euta",
+    "url": "https://app.amplication.com/cl1b0plqr164174601s6few5euta",
+    "settings": {
+      "dbHost": "localhost",
+      "dbName": "",
+      "dbPassword": "admin",
+      "dbPort": 5432,
+      "dbUser": "admin",
+      "appId": "cl1b0plqr164174601s6few5euta",
+      "authProvider": "Jwt"
+    }
+  }
+}
